@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { HighlightVoteDirective } from './highlight-vote.directive';
+import { DayCountPipe } from './day-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
-    HighlightVoteDirective
+    HighlightVoteDirective,
+    DayCountPipe
   ],
   imports: [
     BrowserModule,
