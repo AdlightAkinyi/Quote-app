@@ -14,7 +14,7 @@ export class QuoteComponent implements OnInit {
     
 
   ];
-showAuthor(index){
+ showAuthor(index){
   this.myQuotes[index].moreDetails = !this.myQuotes[index].moreDetails;
 }
 removeQuote(toDelete,index){
