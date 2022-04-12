@@ -1,0 +1,14 @@
+.author{
+    font-style: italic;
+  }
+  i{
+    color: grey;
+  }
+  
+  .thumbs-up{
+    color: white;
+  }
+  .thumbs-down{
+    color: red;
+  }
+  
