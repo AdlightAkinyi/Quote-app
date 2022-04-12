@@ -18,7 +18,7 @@ deleteQuote(remove:boolean){
 numberOfLikes : number = 0;
 numberOfDislikes: number = 0;
 likeButtonClick() {
-  this.numberOfLikes++;
+ this.numberOfLikes++; 
 }
 dislikeButtonClick(){
   this.numberOfDislikes++;
