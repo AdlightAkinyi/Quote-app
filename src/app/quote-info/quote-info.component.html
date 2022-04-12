@@ -1,24 +1,12 @@
 <div class="text-white">
-    <p class="text-white author">~ {{quote.author}}</p>
- 
-    
-    <!-- <i (click)='likeButtonClick()' class="fa fa-thumbs-up "></i>
-    {{numberOfLikes}}&nbsp;&nbsp;&nbsp;{{quote.datePosted|dayCount}}
-      <i (click)='dislikeButtonClick()' class="fa fa-thumbs-down"></i>
-    {{numberOfDislikes}} &nbsp;&nbsp;&nbsp;{{quote.datePosted|dayCount}}
-     -->
+  <p class="text-white author">~ {{quote.author}}</p>
 
-
-    
-    <div class="container-fluid" id="buttons">
-      <button class="btn btn-sm btn-success" (click)='upvote()'>{{quote!.likes}} <i class="fa fa-thumbs-up" id="like"></i></button> 
-      <button class="btn btn-sm hate" id="hate" (click)='downvote()'>{{quote!.dislikes}} <i class="fa fa-thumbs-down" id="dislike"></i></button> 
-      <br><br><button (click)= 'deleteQuote(true)' class="btn btn-outline-danger">Delete Me</button>
-    </div>
-    
-
-    
-  
-
-  
-  
+ <button type="button" class="btn" col-md-4>upvote<i (click)='likeButtonClick()' class="fas fa-thumbs-up fa-2x thumb-up"></i></button>
+ {{numberOfLikes}}
+  <button type="button"  class="btn" col-md-4>downvote<i (click)='dislikeButtonClick()' class="fas fa-thumbs-down fa-2x thumb-down"></i></button>
+ {{numberOfDislikes}} &nbsp;&nbsp;&nbsp;{{quote.datePosted|dayCount}}
+ <br><br><button (click)= 'deleteQuote(true)' class="btn btn-outline-danger">Delete Me</button>
+ <!-- <button type="button" class="btn" col-md-4>upvote <i (click)='likeButtonClick'class="fas fa-thumbs-up fa-2x thumb-up"></i> {{numberOfLikes}}</button>
+ <button type="button" class="btn btn-primary" col-md-4>downvote <i(click)='likeButtonClick' class="fas fa-thumds-down fa-2x thumb-down"></i>{{numberOfDislike}} </button> -->
+ <!-- <br><br><button (click)= 'deleteQuote(true)' class="btn btn-outline-danger">Delete Me</button> -->
+</div>
