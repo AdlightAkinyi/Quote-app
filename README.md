@@ -34,4 +34,5 @@ Bootsrap
 HTML
 # Set UP and Installation requirements
 code.
+Open Terminal{Ctrl+Alt+}T
 
