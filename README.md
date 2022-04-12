@@ -34,5 +34,6 @@ Bootsrap
 HTML
 # Set UP and Installation requirements
 code.
-Open Terminal{Ctrl+Alt+}T
-
+Open Terminal{Ctrl+Alt+T}
+git clone  
+https://github.com/AdlightAkinyi/Quote-app.git
