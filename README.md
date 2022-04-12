@@ -32,4 +32,6 @@ Angular CLI
 CSS
 Bootsrap
 HTML
+# Set UP and Installation requirements
+code.
 
