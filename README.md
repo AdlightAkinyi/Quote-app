@@ -30,4 +30,6 @@ Adlight Akinyi
 # Technologies used
 Angular CLI
 CSS
+Bootsrap
+HTML
 
